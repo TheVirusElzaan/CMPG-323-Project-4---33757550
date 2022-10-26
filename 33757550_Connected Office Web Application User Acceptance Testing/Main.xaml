@@ -219,21 +219,21 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <av:Point x:Key="ShapeLocation">260.4,826.4</av:Point>
                                         <av:Size x:Key="ShapeSize">79.2,87.2</av:Size>
-                                        <av:PointCollection x:Key="TrueConnector">260.4,870 110,870 110,948.8</av:PointCollection>
+                                        <av:PointCollection x:Key="TrueConnector">260.4,870 110,870 110,919.02</av:PointCollection>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <FlowDecision.True>
-                                      <FlowStep x:Name="__ReferenceID7">
+                                      <FlowStep x:Name="__ReferenceID10">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <av:Point x:Key="ShapeLocation">10,948.8</av:Point>
+                                            <av:Point x:Key="ShapeLocation">10,919.02</av:Point>
                                             <av:Size x:Key="ShapeSize">200,62.4</av:Size>
-                                            <av:PointCollection x:Key="ConnectorLocation">210,980 300,980 300,1046.4</av:PointCollection>
+                                            <av:PointCollection x:Key="ConnectorLocation">210,950.22 300,950.22 300,1046.4</av:PointCollection>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ZonesVED.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,62.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="ZonesVED.xaml">
+                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DevicesVED.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,62.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="DevicesVED.xaml">
                                           <ui:InvokeWorkflowFile.Arguments>
-                                            <OutArgument x:TypeArguments="x:Boolean" x:Key="outVEDZSuccess" />
+                                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
                                           </ui:InvokeWorkflowFile.Arguments>
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -242,9 +242,9 @@
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:InvokeWorkflowFile>
                                         <FlowStep.Next>
-                                          <FlowDecision x:Name="__ReferenceID8" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79.2,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
+                                          <FlowDecision x:Name="__ReferenceID7" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79.2,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
                                             <FlowDecision.Condition>
-                                              <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="bVEDSuccessZones = false" />
+                                              <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="bVEDSuccessDevices = false" />
                                             </FlowDecision.Condition>
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -255,7 +255,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <FlowDecision.True>
-                                              <FlowStep x:Name="__ReferenceID10">
+                                              <FlowStep x:Name="__ReferenceID9">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <av:Point x:Key="ShapeLocation">0,1148.8</av:Point>
@@ -274,7 +274,7 @@
                                                   </sap:WorkflowViewStateService.ViewState>
                                                 </ui:InvokeWorkflowFile>
                                                 <FlowStep.Next>
-                                                  <FlowDecision x:Name="__ReferenceID9" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79.2,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_6">
+                                                  <FlowDecision x:Name="__ReferenceID8" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79.2,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_6">
                                                     <FlowDecision.Condition>
                                                       <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="bVEDSuccessCategories = False" />
                                                     </FlowDecision.Condition>
@@ -283,20 +283,20 @@
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         <av:Point x:Key="ShapeLocation">260.4,1226.4</av:Point>
                                                         <av:Size x:Key="ShapeSize">79.2,87.2</av:Size>
-                                                        <av:PointCollection x:Key="TrueConnector">260.4,1270 100,1270 100,1348.8</av:PointCollection>
+                                                        <av:PointCollection x:Key="TrueConnector">260.4,1270 110,1270 110,1318.8</av:PointCollection>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
                                                     <FlowDecision.True>
                                                       <FlowStep x:Name="__ReferenceID11">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                            <av:Point x:Key="ShapeLocation">0,1348.8</av:Point>
+                                                            <av:Point x:Key="ShapeLocation">10,1318.8</av:Point>
                                                             <av:Size x:Key="ShapeSize">200,62.4</av:Size>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DevicesVED.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,62.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="DevicesVED.xaml">
+                                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ZonesVED.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,62.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="ZonesVED.xaml">
                                                           <ui:InvokeWorkflowFile.Arguments>
-                                                            <OutArgument x:TypeArguments="x:Boolean" x:Key="outVEDDSuccess" />
+                                                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
                                                           </ui:InvokeWorkflowFile.Arguments>
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
